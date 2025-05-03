@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NAME Resort</title>
+        <meta name="author" content="Victoria Morrison">
+        <meta name="description" content="Visit our beautiful resort nestled in the Swiss Alps">
+
+        <!-- <link rel="icon" href="" type="image/x-icon"> -->
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="titlenav">
+                <h1><a href="index.html">Whispering Pines Resort</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="images/swiss-valley.jpg" height="560" width="1440" alt="Image of a green valley full of pine trees surrounded by snowy mountains">
+        </header>
+
+        <main>
+            <section id="form-info">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation!</p>
+                    
+                <img src="images/swiss-peak.jpg" alt="tall, angular, snow-covered mountain peak overlooking a flowing river and lush pine trees" height="455" width="350">
+
+                <div id="form">
+                        <div><p>Required fields marked with a <span class="required">*</span></p></div>
+                        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                        
+                        <label for="my-name">Full Name<span class="required">*</span></label>
+                        <input type="text" name="my-name" id="my-name" required>
+
+                        <label for="my-email">Email Address<span class="required">*</span></label>
+			            <input type="email" name="my-email" id="my-email" required>
+
+                        <label for="my-phone">Phone Number<span class="required">*</span></label>
+			            <input type="tel" name="my-phone" id="my-phone">
+
+                        <div> <fieldset id="pref">
+                            <legend>Preferred Contact Method</legend>
+                            
+                                <input type="radio" name="contact-pref" id="pref-email" checked>
+                                <label for="pref-email">Email</label>
+                            
+                                <input type="radio" name="contact-pref" id="pref-phone">
+                                <label for="pref-phone">Phone</label>
+                            
+                        </fieldset>
+                        </div>
+                        <label id="comments">Comments?</label>
+                        <textarea name="my-comments" id="my-comments"></textarea>
+                        
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                    </form>
+
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright ©2025 Whispering Pines Resort</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
